@@ -25,5 +25,5 @@ function watchSass() {
 
 exports.watchSass = watchSass
 
-// npm install gulp --save-deps && npm install gulp-sass --save-deps
+// npm install gulp --save-deps && npm install gulp-sass --save-deps && npm i gulp-autoprefixer
 // gulp watchSass
