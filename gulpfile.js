@@ -7,10 +7,6 @@ const prefix = require("gulp-autoprefixer");
 const scss = './assets/scss/**/*.scss'
 const css = './assets/css'
 
-// for compile bootstrap plugins
-// const scss = './assets/plugins/bootstrap/scss/*.scss'
-// const css = './assets/plugins/bootstrap/css'
-
 function compileSass(done) {
   src(scss)
     .pipe(gulp().on('error', gulp.logError))
